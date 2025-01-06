@@ -3,4 +3,7 @@ Tag
 
 <h1></h1> => element
 <h1> => opening
-</h1> =>closing
+</h1> => closing
+
+Don't use H1 more than one
+Don't straight from h1 to h3, need to in order
