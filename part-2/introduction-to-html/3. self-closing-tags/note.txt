@@ -1,0 +1,12 @@
+closing tags
+-> element that only closing tags
+-> example
+    => horizontal line => <hr />
+    => break => <br />
+-> don't use tag br for inside paragraph that has multiple
+    => do separate each paragraph instead
+
+-> tag can use without slash
+    -> <br>
+    -> <hr>
+-> but better to add because to make different for self closing tags    
