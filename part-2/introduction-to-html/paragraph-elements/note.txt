@@ -1,0 +1,5 @@
+paragraph
+-> for plain text
+-> for separate text between lines
+
+-> website for generate lorem ipsum => https://www.lipsum.com/
