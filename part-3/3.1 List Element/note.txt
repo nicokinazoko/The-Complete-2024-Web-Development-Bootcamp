@@ -1,0 +1,8 @@
+unordered list
+-> <ul></ul>
+    => has element <li></li>
+
+
+ordered list
+-> <ol></ol>
+    => for list that using order
