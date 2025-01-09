@@ -1,0 +1,11 @@
+image element
+=> <img>
+=> self closing tag
+
+-> atribute src
+    => source => location of image
+
+-> atribute alt
+    => alternative
+    => for describe image
+    => it's not always necessary to add it
