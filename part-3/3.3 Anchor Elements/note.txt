@@ -1,0 +1,13 @@
+anchor element
+=> link go to inside of opening tag
+
+element components
+<tag atrribute=value anotheratribute=value>Content</tag>
+    => atribute can be more than 1, separated by space
+
+dragable atribute
+-> set element can be dragable
+-> value is true or false
+
+atribute start in ordered list
+=> to set starting number
