@@ -1,0 +1,11 @@
+web pages
+=> using link to link file
+
+
+basic direktory
+
+-> projects 
+    => index.html
+    => 
+-> assets
+    ->images
