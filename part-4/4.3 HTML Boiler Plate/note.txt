@@ -1,0 +1,25 @@
+HTML Boiler Plate
+
+Can be analogied using burger
+
+-> DOCTYPE
+    => write code in HTML 
+-> html tag
+    => all tag will be inside in html tag
+-> html lang
+    => website language 
+        => usually for screen reading
+
+Head
+    -> UTF-8 -> meta charset
+        => character used in website
+    -> title
+        => title in browser tab
+
+Body
+    -> main element of website
+    -> can add whatever you want
+
+Viewport
+    -> what website will displayed
+    
