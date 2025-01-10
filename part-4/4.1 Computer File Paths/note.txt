@@ -1,0 +1,12 @@
+Path
+=> absolute path
+    => Starts from the current working directory
+    => using all the directory
+=> related path
+    => Starts from the root directory of the file system
+    => using dot
+
+=> single dot
+    => same directory
+=> two dot
+    => outside current directory
