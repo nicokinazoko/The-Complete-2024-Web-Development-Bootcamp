@@ -1,0 +1,41 @@
+Selectors
+
+tag Selectors
+=> h2 {
+
+    }
+
+class selector
+=> using . (dot) 
+=> .class-name {
+
+    }
+    => to add specific css to class
+=> apply to many element
+
+
+id selector
+=> using #
+=> #main {
+
+    }
+=> apply to one element per file
+=> should be unique name
+
+
+atribute selector
+=> html element + atribute
+=> using [] for atribute
+=> p[draggable] {
+
+}
+    => cand do like this
+        => p[draggable="false] {
+        }
+            => it will only select the file with has
+                element p with atribute draggable false
+
+universal selector
+=> * 
+=> select all the element 
+
