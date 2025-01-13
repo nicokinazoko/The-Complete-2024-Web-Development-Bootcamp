@@ -1,0 +1,32 @@
+Font Properties
+
+pixels (px) 
+=> 1/96th inch
+
+point (pt)
+=> 1/72 inch
+
+
+em
+=> full width of m
+    => 100% parent
+        => parent body -> 20 px
+            => 1 em = 20 px
+            => 2 em = 40 px
+
+rem
+=> relative
+=> 100% of root (html tag for example)
+
+
+font weight
+=> normal / bold
+
+font-family
+=> font example : helvetica, arial, sans-serif
+=> need to add comma to add default font if previous font is not installed
+=> if using more than one word, use quitation mark ("") instead
+
+
+Text alignment
+=> 
