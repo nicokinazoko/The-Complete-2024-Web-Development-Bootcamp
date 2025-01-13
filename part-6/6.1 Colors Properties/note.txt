@@ -1,0 +1,6 @@
+List of color properties
+
+
+color
+=> text color
+
