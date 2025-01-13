@@ -1,0 +1,32 @@
+How to add css in html
+
+
+-> inline  
+    => it inside the html tag 
+    => add word style, in opening tag
+        => first part (property)
+            => propery what to change
+        => second part (value)
+            => value for change
+    => better for single element
+
+-> internal
+    => in style tag html
+        => <style></style>
+    => selector
+        => what part of tag that want to se css
+            => html {
+                background:red    
+            }
+        => better to use for one file html
+
+-> external
+    => in outside file html
+        => new file with extension .css
+    => to call, use tag link
+        => <link>
+                rel="stylesheet"
+                href="example.css"
+            </link>
+        => rel => relationships
+        => href => location of css file
