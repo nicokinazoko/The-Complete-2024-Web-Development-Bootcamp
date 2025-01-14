@@ -1,0 +1,42 @@
+Box Model
+
+
+-> Height
+    -> height of the box
+-> width
+    -> width of the box
+both can use percentage
+
+-> border
+    -> can take 3 values
+        -> thickness of the border 
+            -> can use value
+        -> style for the border
+        -> color of the border
+    -> can add more specific rules
+        -> example
+            -> border: 30px solid black
+                -> border-top: 0px
+        -> it should do after the first declaration first
+-> border-width
+    -> there are 4 values
+        -> up, right, down, left
+            -> clockwise
+    -> if use 2 values
+        -> it will use like this
+            -> first value
+                -> up, down
+            -> second value
+                -> right, left
+-> padding
+    -> create space before the border
+
+-> margin
+    -> outside of padding
+
+
+
+======
+division tag
+-> invisible, will visible if use styling
+-> act as container
