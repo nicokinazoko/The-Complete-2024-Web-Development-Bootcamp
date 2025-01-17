@@ -1,0 +1,34 @@
+combining selectors
+
+
+list of rules
+-> group
+    -> using comma
+        -> apply for all the selectors
+        -> can be tag, class, id etc
+
+    
+-> child selector
+    -> using >
+        -> selector > selector
+        -> first is parent
+        -> second is child
+    -> only 1 level inside direct child of left side
+
+-> descendant 
+    -> using space
+        -> selector1 selector2
+        -> apply style on selector 2 to selector 1
+
+-> chaining
+    -> selector1selector2 (without space)
+        -> apply where all selectors are true
+    -> it can be more than 2 selector
+    -> always with this order
+        -> element
+        -> class
+        -> id
+
+-> combining combiners
+    -> use selector combiners 
+        -> example => selector selector2selector3
