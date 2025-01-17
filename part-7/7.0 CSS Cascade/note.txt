@@ -1,0 +1,26 @@
+css cascade
+
+
+hierarchy (below is based on order, starting from importance)
+
+-> position
+    -> the latest order will be used
+
+-> specificity
+    -> based on order  
+        -> latest one will be used 
+    -> order
+        -> element
+        -> class
+        -> atribute
+        -> id selector
+
+-> type 
+    -> based on order  
+        -> inline
+        -> internal
+        -> external
+    
+-> importance
+    -> if using importane word, it will be used directly
+    -> no matter what rule already mentioned above
