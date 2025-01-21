@@ -1,0 +1,8 @@
+span element
+
+-> span value
+    -> display: inline
+        -> element cannot update heigth and width
+    -> display: block
+    -> display: inline-block
+        -> allow to set weight and width
