@@ -1,0 +1,26 @@
+CSS Position
+
+-> Static Position
+    => will stay in position
+    => whatever left or top has value, it will not override it
+-> relative
+    -> position relative to default position
+    -> will calculate based on like padding, and will relative
+-> absolute
+    -> relative nearest to position ancestor
+        -> div ancestor
+            -> div relative
+        -> it will override with ancestor position
+    -> or top left corner
+        -> if the ancestor is doesn't have position
+    -> Z - index
+        -> like 3rd dimension in graph
+        -> default is zero
+        -> the higher the index, it will display outer
+-> fixed 
+    -> relative to top left corner of browser window
+    -> if doing scroll, it will go stay in place
+
+
+TASK
+-> circle relative
