@@ -1,0 +1,10 @@
+Responsive website
+How to use it
+1. Media queries
+    -> example => @media (max-width)
+2. CSS Grid
+    -> in the next section for learning more advance
+3. CSS Flexbox
+    -> in the next section for learning more advance
+4. External frameworks
+    -> example bootstrap
