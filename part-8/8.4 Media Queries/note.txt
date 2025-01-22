@@ -1,0 +1,9 @@
+Media Queries
+-> using @media
+    -> tag set it inside
+    -> if it past the condition, it will apply the styling
+-> can use min or max
+    -> it can be combined too
+-> screen
+    -> not necessary
+    -> will use when website to print
