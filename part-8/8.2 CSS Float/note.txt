@@ -1,0 +1,11 @@
+Float property
+
+-> float 
+    -> for wrap the image
+        -> left
+        -> right
+    -> if there is use 2  parapraph
+        -> better to use 1 paragraph and 1 footer
+
+-> clear
+    -> clear for wrap around
