@@ -1,0 +1,23 @@
+Link for learning: 
+-> https://appbrewery.github.io/flexbox-sizing-exercise/
+
+priority    
+-> min width / max-width
+-> flex basis
+-> width
+-> content width
+    -> if there is different between size
+        -> it will use the highest size
+        -> it will not more than the size applicable
+
+flex container
+-> when use display flex
+    -> auto create box with the longest string in there
+
+
+flex items
+-> it will automatically set all size to current size set
+
+
+-> flex grow
+-> flex shrink
