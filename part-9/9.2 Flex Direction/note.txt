@@ -1,0 +1,10 @@
+Flex direction
+-> default set to row
+    -> use the main axis -> left to right
+    -> cross axis -> top to bottom
+-> flex direction -> column
+    -> main axis -> top to bottom
+    -> cross axis -> left to righ
+-> flex basis
+    -> row -> left to right
+    -> column -> top to bottom
