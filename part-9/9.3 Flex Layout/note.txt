@@ -1,0 +1,24 @@
+Flex layout
+
+Order
+-> can use order 
+    -> flex order : 1
+
+Flex wrap
+-> nowrap
+    -> push until the end of line
+    -> default behaviour
+    -> all the items will not be reduced
+
+flex wrap
+-> wrap
+    -> if item doesn't enough space, it will go to next line
+
+vh
+-> viewport height
+    -> height of current screen
+
+Link 
+-> https://appbrewery.github.io/flex-layout/
+-> https://appbrewery.github.io/flexboxfroggy/
+-> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
