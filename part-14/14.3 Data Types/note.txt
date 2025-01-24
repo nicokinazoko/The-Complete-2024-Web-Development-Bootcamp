@@ -1,0 +1,7 @@
+Data types
+-> String
+-> Numbers
+-> boolean
+
+typeof
+-> syntax for find the type of data
