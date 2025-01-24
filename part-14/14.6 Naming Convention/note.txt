@@ -1,0 +1,4 @@
+variable naming
+-> explain what the variable for
+-> cannot contain only number
+-> cannot use dash, use underscore
