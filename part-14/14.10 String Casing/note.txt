@@ -1,0 +1,5 @@
+String Casing
+-> toUpperCase 
+    -> for make all character big
+-> toLowerCase
+    -> for make all character small
