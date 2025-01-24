@@ -1,0 +1,5 @@
+alert
+-> can do it more than 1
+
+Link to learn
+-> https://github.com/rwaldron/idiomatic.js
