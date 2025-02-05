@@ -1,0 +1,8 @@
+Function
+-> function nameFunction() {}
+
+Create function and call function
+-> create function
+    -> add word function
+-> call function
+    -> only world function name
