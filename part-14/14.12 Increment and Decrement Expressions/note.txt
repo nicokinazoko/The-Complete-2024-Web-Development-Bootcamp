@@ -1,0 +1,9 @@
+-> increment
+    -> use ++
+        -> i++ => i + 1
+    -> can use with another numbee
+        -> i + y => i + y
+        -> i += y => i + y
+-> decrement
+    -> use --
+        -> i-- => i - 1
