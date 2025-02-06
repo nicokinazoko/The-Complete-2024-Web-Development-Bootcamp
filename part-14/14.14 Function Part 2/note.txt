@@ -1,0 +1,2 @@
+Parameter for input in function
+-> put something inside parenthesis in function
