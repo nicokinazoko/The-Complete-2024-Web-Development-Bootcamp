@@ -1,0 +1,2 @@
+BMI 
+-> need to console log the result
