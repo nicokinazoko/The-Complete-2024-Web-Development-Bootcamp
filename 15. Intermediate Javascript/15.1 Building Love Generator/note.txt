@@ -1,0 +1,3 @@
+Math random
+-> random number until 16 decimal
+-> never 1
