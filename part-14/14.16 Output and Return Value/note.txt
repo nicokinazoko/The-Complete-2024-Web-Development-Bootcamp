@@ -1,0 +1,4 @@
+Output Function
+-> use return 
+-> when call the function, can assign variable with calling function with parameter
+
