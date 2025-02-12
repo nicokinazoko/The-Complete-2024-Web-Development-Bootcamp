@@ -1,0 +1,9 @@
+Array
+=> data that can save in same container
+=> data start from 0
+
+Array.length
+=> output total array length
+
+Array includes
+=> to check if data is exist in array
