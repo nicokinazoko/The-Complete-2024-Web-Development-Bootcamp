@@ -1,0 +1,6 @@
+for loops
+-> for (var i = 0; i < 2; i++)
+
+different while and for
+-> for => state
+-> loops => iterate
