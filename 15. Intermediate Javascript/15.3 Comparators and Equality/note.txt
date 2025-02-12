@@ -1,0 +1,10 @@
+comparators
+=> === -> equal to
+=> !== -> not equal to
+
+typeof
+-> to check type of variable
+
+
+different between == and ===
+-> === check for data types
