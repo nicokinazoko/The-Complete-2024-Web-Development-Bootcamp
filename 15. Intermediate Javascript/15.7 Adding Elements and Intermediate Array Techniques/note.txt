@@ -1,0 +1,6 @@
+Insert data to array
+-> Array push
+    -> insert behind latest data
+-> Array pop
+    -> remove last index of array
+    
