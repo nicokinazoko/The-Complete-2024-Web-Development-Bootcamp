@@ -1,0 +1,4 @@
+comparators
+-> && (and)
+-> || (or)
+-> ! (not)
