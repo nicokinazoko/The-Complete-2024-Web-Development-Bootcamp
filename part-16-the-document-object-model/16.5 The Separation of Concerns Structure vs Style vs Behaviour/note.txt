@@ -1,0 +1,12 @@
+classList
+-> property for DOM Object
+    -> document.querySelector('li').classList
+        -> add
+            -> to add class
+                -> document.querySelector('li').classList.add('invisible')
+        -> remove
+            -> to remove class
+                -> document.querySelector('li').classList.remove('invisible')
+        -> toggle
+            -> to set togle on off
+                -> document.querySelector('li').classList.toggle('invisible')
