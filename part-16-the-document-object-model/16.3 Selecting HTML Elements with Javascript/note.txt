@@ -1,0 +1,28 @@
+Selector
+-> getElementsByTagName
+    -> get all elements with tag name 
+        -> different from query selector
+        -> type data array
+            -> document.getElementsByTagName('li')[1]
+        -> length
+            -> to get total tag
+-> getElementsByClassName
+    -> get all element by class name
+    -> same behaviour like tag name
+        -> document.getElementsByClassName('list')[0]
+-> getElementById
+    -> find one element by ID
+    -> it should be unique because using 
+        -> document.getElementById('header')
+-> querySelector
+    -> selector like css
+    -> can combine like css
+    -> use hierarchy
+        -> document.querySelector('#header')
+        -> document.querySelector('li a')
+        -> document.querySelector('ul .list')
+-> querySelectorAll
+    -> get query selector all
+        -> document.querySelectorAll('.list')
+
+        
