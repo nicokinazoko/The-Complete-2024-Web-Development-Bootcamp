@@ -1,0 +1,14 @@
+DOM
+-> inline tag
+    -> onload
+    -> when tag is load, it will run the script
+    -> better not use because hard to debug
+-> internal
+    -> use tag script
+-> external type
+    -> use tag script
+    -> add  element src
+    -> always set external css first before load the html file
+
+-> always set tag first before DOM to prevent error
+-> make sure to set script before the end of body
