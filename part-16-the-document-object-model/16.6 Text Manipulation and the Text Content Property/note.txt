@@ -1,0 +1,4 @@
+Get text from javascript
+-> using textContent
+    -> if using innerHTML, it will straight get data from html tag
+        -> document.querySelector('h1').textContent
