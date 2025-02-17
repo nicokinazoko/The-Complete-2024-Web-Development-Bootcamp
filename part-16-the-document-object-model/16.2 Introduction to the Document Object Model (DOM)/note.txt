@@ -1,0 +1,25 @@
+document
+-> firstElementChild
+    -> get first element of document
+    -> firstElementChild, lastElementChild
+        -> get first or last element of child document
+-> innerHTML
+    -> to change value of element
+-> query selector
+
+-> button
+    -> property
+        -> example : color
+        -> set method
+            -> innerHTML
+            -> style
+            -> first
+    -> methods
+        -> what can do
+        -> example : click
+        -> using call method = same like call function
+            -> click()
+            -> appendChild()
+            -> setAttribute()
+
+
