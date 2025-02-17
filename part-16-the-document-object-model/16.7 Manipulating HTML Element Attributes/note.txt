@@ -1,0 +1,14 @@
+attributes
+-> to check all the attributes attached
+    -> document.querySelector('a').attributes
+
+getAttribute
+-> to get attribute in current selector
+    -> document.querySelector('a').getAttribute('href')
+
+setAttribute
+-> to set new attribute
+-> has 2 input
+    -> first input : attribute that want to set
+    -> second input : text change for attribute
+    -> document.querySelector('a').setAttribute('href', 'https://www.bing.com/')
