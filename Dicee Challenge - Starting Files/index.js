@@ -5,3 +5,11 @@ var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 document
   .querySelector('.img1')
   .setAttribute('src', './images/dice' + randomNumber1 + '.png');
+
+// set random number for dice 2
+var randomNumber2 = Math.floor(Math.random() * 6) + 1;
+
+// set dice 2 based on random number
+document
+  .querySelector('.img2')
+  .setAttribute('src', './images/dice' + randomNumber2 + '.png');
