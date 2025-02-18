@@ -1,0 +1,17 @@
+Event Listeners
+-> link : 
+    -> https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+    -> https://developer.mozilla.org/en-US/docs/Web/Events
+
+-> addEventListener
+    -> document.querySelector('button').addEventListener()
+        -> to add event when something is doing
+        -> parameter
+            -> event (click, etc)
+            -> function  (this case, not using parentheses)
+                -> can use anonymous function (set function in there)
+    -> to add multiple add event listener
+        -> using loop to set event listener each
+        ->  for (var i = 0; i < selectorButtonDrum.length; i++) {
+                selectorButtonDrum[i].addEventListener('click', handleClick);
+            }
