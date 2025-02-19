@@ -1,0 +1,19 @@
+-> $0
+    -> for variable element h1
+    -> can add event listener
+    -> $0.addEventListener('click', function() {alert('im click')})
+
+-> function can be used in as parameter
+
+function add(num1, num2) {
+  return num1 + num2;
+}
+
+function multiply(num1, num2) {
+  return num1 * num2;
+}
+
+function calculator(num1, num2, operator) {
+  return operator(num1, num2);
+}
+    -> in 3rd parameter, it can passed by function
