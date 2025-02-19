@@ -1,0 +1,4 @@
+-> add sound
+    -> using audio.play()
+-> this
+    -> to get current data of process
