@@ -1,0 +1,4 @@
+-> Constructor Function
+    -> using constructor this
+    -> function start with Capital Case
+    -> when call it, use new
