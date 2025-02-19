@@ -1,0 +1,8 @@
+-> swith statement
+    -> switch (buttonInnerHTML) {
+      case 'w':
+        var audio = new Audio('./sounds/tom-1.mp3');
+        audio.play();
+        break;
+      default:
+    }
