@@ -1,0 +1,4 @@
+How to detect keyboard
+-> using keydown
+-> how to console log
+    -> using event
