@@ -1,0 +1,5 @@
+How to add animation
+-> using classList
+    -> find class first
+    -> add class inside the class that want to add animation
+    -> add timeout with function to remove additional class
