@@ -1,0 +1,6 @@
+Add text
+-> using .text
+    -> $('h1').text('Hi');
+-> .html
+    -> similiar to innerHTML
+        -> $('button').html('<strong>Hey</strong>')
