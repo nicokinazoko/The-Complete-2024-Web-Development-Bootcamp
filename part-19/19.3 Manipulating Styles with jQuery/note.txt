@@ -1,0 +1,20 @@
+Add style
+-> using .css
+    -> $('h1').css('color', 'blue');
+        -> first parameter is for property
+            -> second parameter style 
+    -> it's not recomended
+        -> javascript file is only for behaviour
+-> using addClass
+    -> to add class from css into element or another class
+    -> $('h1').addClass('big-title');
+-> removeClass
+    -> to remove class
+    -> $('h1').removeClass('big-title');
+-> add multiple class
+    -> using space to differentiate another class
+    -> still using addClass
+-> to check class is exist or not
+    -> hasClasss
+    -> $('h1').hasClass('margin-50')
+
