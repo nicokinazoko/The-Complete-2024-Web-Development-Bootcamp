@@ -1,0 +1,15 @@
+add event listener
+-> for Click
+    -> use .click()
+        -> $('h1').click(function () {
+              $('h1').css('color', 'purple');
+            });
+-> to detect keyboard pressed 
+    -> $('input').keypress(function (event) {
+          console.log(event.key);
+        });
+-> on
+    -> for record all of activites based on parameter
+    -> $('h1').on('mouseover', function () {
+          $('h1').css('color', 'blue');
+        });
