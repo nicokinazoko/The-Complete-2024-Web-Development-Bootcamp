@@ -24,8 +24,14 @@ function calculator(num1, num2, operator) {
 var selectorButtonDrum = document.querySelectorAll('button.drum');
 
 for (var i = 0; i < selectorButtonDrum.length; i++) {
+  selectorButtonDrum[i].addEventListener('click', function () {
+    var buttonInnerHTML = this.innerHTML;
+    makeSound(buttonInnerHTML);
+    buttonAnimation(buttonInnerHTML);
+  });
   selectorButtonDrum[i].addEventListener('keydown', function (event) {
     makeSound(event.key);
+    buttonAnimation(event.key);
   });
 }
 
@@ -63,4 +69,14 @@ function makeSound(key) {
     default:
       console.log(key);
   }
+}
+
+function buttonAnimation(currentKey) {
+  // add . because class name is using key
+  var activeButton = document.querySelector('.' + currentKey);
+  activeButton.classList.add('pressed');
+
+  setTimeout(function () {
+    activeButton.classList.remove('pressed');
+  }, 100);
 }
