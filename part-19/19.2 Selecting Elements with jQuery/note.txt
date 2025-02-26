@@ -1,0 +1,6 @@
+Select element in jquery
+-> $('elementName')
+    => $('h1')
+        -> same like document.querySelector
+        -> it will select with querySelectorAll too
+    => can be used for class, id
