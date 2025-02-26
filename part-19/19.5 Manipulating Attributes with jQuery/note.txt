@@ -1,0 +1,7 @@
+add atribute
+-> using attr
+    -> $('a').attr('href', 'http://yahoo.com');
+    -> first parameter for method
+    -> second parameter attribute
+    -> can get for current class
+        -> $('h1').attr('class')
