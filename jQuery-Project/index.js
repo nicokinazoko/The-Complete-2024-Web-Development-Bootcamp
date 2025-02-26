@@ -24,9 +24,10 @@ $('h1').on('mouseover', function () {
   $('h1').css('color', 'blue');
 });
 
-$('h1').before('<button>New</button>');
+$('button').on('click', function () {
+  $('h1').slideUp().slideDown().animate({ opacity: 0.5 });
+});
 
-$('h1').after('<button>New</button>');
-$('h1').prepend('<button>New</button>');
-$('h1').append('<button>New</button>');
-$('button').remove();
+// $('button').on('click', function () {
+//   $('h1').animate({ opacity: 0.5, margin: '20px' });
+// });
