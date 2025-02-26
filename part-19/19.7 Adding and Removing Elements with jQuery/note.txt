@@ -1,0 +1,17 @@
+-> before
+    -> $('h1').before('<button>New</button>');
+    -> to add element in jquery before element tag
+   
+-> after
+    -> $('h1').after('<button>New</button>');
+    -> to add element in jquery after element tag
+-> prepend
+    -> after the element tag that selected
+        -> inside the tag 
+    -> $('h1').prepend('<button>New</button>');
+-> append
+    -> before the element tag that selected
+        -> inside the tag         
+    -> $('h1').append('<button>New</button>');
+-> remove 
+    -> $('button').remove();
