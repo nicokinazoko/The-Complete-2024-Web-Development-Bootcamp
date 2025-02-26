@@ -1,0 +1,7 @@
+use jquery
+-> link : https://jquery.com/download/
+-> should placed before script js
+    -> if want to set first
+        -> use $(document).ready
+-> notation
+    -> $ => querySelector
