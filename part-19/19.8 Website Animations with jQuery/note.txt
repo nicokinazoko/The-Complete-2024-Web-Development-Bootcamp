@@ -1,0 +1,53 @@
+-> hide
+    -> opposite of css
+        -> to hide selected element
+        -> $('button').click(function () {
+              $('h1').hide();
+            }); 
+-> show
+    -> to show the css hidden before
+        -> $('button').click(function () {
+          $('h1').show();
+        });
+-> toggle 
+    -> like toggle on off
+    -> $('button').on('click', function () {
+          $('h1').toggle();
+        });
+-> fadeOut
+    -> to make element dissapeared with animation slow
+    -> $('button').on('click', function () {
+          $('h1').fadeOut();
+        });
+-> fadeIn
+    -> opposite of fadeOut
+        -> $('button').on('click', function () {
+          $('h1').fadeIn();
+        });
+-> fadeToggle
+    -> fadeIn + fadeOut
+        -> $('button').on('click', function () {
+          $('h1').fadeToggle();
+        });
+-> slideUp
+    -> for collapse the element
+    -> $('button').on('click', function () {
+          $('h1').slideUp();
+        });
+-> slideDown
+    -> for slide down the element
+-> slideToggle
+    -> slideUp + slideDown
+    -> $('button').on('click', function () {
+          $('h1').slideToggle();
+        });
+-> animate
+    -> to create animation 
+    -> only for css that has value number
+        -> $('button').on('click', function () {
+          $('h1').animate({ opacity: 0.5, margin: '20px' });
+        });
+-> chaining animation
+    -> $('button').on('click', function () {
+          $('h1').slideUp().slideDown().animate({ opacity: 0.5 });
+        });
