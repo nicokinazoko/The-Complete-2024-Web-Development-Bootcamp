@@ -27,7 +27,6 @@ $('.btn').on('click', function () {
 
 function checkAnswer(currentLevel) {
   if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
-    console.log('success');
     if (userClickedPattern.length === gamePattern.length) {
       setTimeout(function () {
         nextSequence();
@@ -41,7 +40,8 @@ function checkAnswer(currentLevel) {
       $('#level-title').text('Game Over, Press Any Key to Restart');
     }, 200);
     playSound('wrong');
-    console.log('wrong');
+
+    startOver();
   }
 }
 
@@ -72,4 +72,10 @@ function animatePress(currentColour) {
   setTimeout(function () {
     button.removeClass('pressed');
   }, 100);
+}
+
+function startOver() {
+  level = 0;
+  gamePattern = [];
+  keyboardPressed = false;
 }
