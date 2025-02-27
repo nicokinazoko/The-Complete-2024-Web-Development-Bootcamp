@@ -34,6 +34,13 @@ function checkAnswer(currentLevel) {
       }, 1000);
     }
   } else {
+    $('body').addClass('game-over');
+    $('#level-title').text('Game Over, Press Any Key to Restart');
+    setTimeout(function () {
+      $('body').removeClass('game-over');
+      $('#level-title').text('Game Over, Press Any Key to Restart');
+    }, 200);
+    playSound('wrong');
     console.log('wrong');
   }
 }
