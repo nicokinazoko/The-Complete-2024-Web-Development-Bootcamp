@@ -12,6 +12,7 @@ function nextSequence() {
 $('.btn').on('click', function () {
   var buttonId = $(this).attr('id');
 
+  animatePress(buttonId);
   $('#' + buttonId)
     .fadeOut(100)
     .fadeIn(100);
@@ -21,3 +22,12 @@ $('.btn').on('click', function () {
 
   userClickedPattern.push(buttonId);
 });
+
+function animatePress(currentColour) {
+  var button = $('#' + currentColour);
+  button.addClass('pressed');
+
+  setTimeout(function () {
+    button.removeClass('pressed');
+  }, 100);
+}
