@@ -1,0 +1,24 @@
+command line
+
+-> mkrdir 
+    -> make directory
+-> ls
+    -> check list directory
+-> cd
+    -> change directory
+-> ~
+    -> to back to previous directory
+-> touch
+    -> create new file
+        -> add extension in there too
+-> open -a
+    -> to open file
+    -> select application to use after that + file name
+-> rm
+    -> remove files
+    -> -r
+        -> to remove directory
+-> pwd
+    -> to check current directory
+-> --no-preserve-root
+    -> to remove folder
