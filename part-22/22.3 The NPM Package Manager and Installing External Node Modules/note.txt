@@ -1,0 +1,12 @@
+-> npm init
+    -> initiate npm in project
+-> npm install
+    -> install npm
+    -> can install more than 1
+        -> separate by space
+
+-> ECMA module
+    -> import from
+        -> set in package json => type: module
+    -> use require
+        -> set in package json => type: commmonjs
