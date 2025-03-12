@@ -1,0 +1,7 @@
+Create express server
+-> create directory
+-> create index js file
+-> init npm
+-> install express package
+-> write server application in index js
+-> start server
