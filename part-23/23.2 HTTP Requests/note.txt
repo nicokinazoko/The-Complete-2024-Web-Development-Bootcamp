@@ -1,0 +1,21 @@
+Request Vocab
+-> GET
+    -> request resource
+-> POST
+    -> sending resource
+-> PUT
+    -> replace resource
+    -> replace completely
+    -> replace into new data
+-> PATCH
+    -> patch up resource
+    -> only update some of data
+-> DELETE
+    -> delete resource
+
+
+send response
+-> res.send
+
+flag -g
+-> to install global dependency

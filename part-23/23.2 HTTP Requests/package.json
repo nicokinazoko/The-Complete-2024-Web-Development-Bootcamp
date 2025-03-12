@@ -1,0 +1,15 @@
+{
+  "name": "23.2-http-requests",
+  "version": "1.0.0",
+  "description": "Learn http request",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nico",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
