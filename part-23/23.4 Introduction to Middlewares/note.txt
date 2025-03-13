@@ -1,0 +1,12 @@
+body parser
+-> middleware
+
+res.sendFile
+-> send file in response
+
+to send form
+-> using action 
+
+add middleware
+-> app.use
+    -> parameter what data passed
