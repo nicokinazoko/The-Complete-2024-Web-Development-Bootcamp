@@ -1,0 +1,5 @@
+res.render
+=> parameter
+    -> file name, variable
+    -> file name is not the directory
+    -> render only in folder views
