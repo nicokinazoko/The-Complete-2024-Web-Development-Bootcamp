@@ -1,0 +1,12 @@
+morgan
+-> GET /submit 404 145 - 3.028 ms
+
+
+next
+-> continue the process after called
+-> parameter 
+    -> req, res, next
+
+use own middleware
+-> create new function
+-> call in express.use
