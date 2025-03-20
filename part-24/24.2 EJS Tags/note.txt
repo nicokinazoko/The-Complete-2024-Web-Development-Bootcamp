@@ -1,0 +1,15 @@
+EJS TAGS
+-> <% %>
+    -> execute js
+-> <%= %>
+    -> js output
+-> <%- %>
+    -> for tag HTML
+-> <%% %%>
+    -> display tag
+-> <%# %>
+    -> stop execution
+        -> as code
+-> <%- include('header.ejs) %>
+    -> insert ejs file
+    -> can use for import header / footer 
