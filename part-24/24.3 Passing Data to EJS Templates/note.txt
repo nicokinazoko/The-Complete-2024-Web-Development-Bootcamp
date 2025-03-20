@@ -1,0 +1,7 @@
+check if there is no data
+-> res.locals
+    -> in ejs, can use only locals
+
+to send data ejs to server
+-> put in req.body
+    -> in ejs, get input name
